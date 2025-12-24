@@ -176,3 +176,30 @@ input {
     opacity: 0;
   }
 }
+/* Botón con latido */
+button {
+  animation: latido 2s infinite;
+}
+
+@keyframes latido {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+.galeria img {
+  transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05) rotate(var(--rot));
+}
+#mensaje {
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+.final {
+  font-size: 1.5rem;
+  margin: 40px auto;
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}

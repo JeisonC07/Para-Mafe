@@ -38,7 +38,14 @@ function escribirTexto() {
   const intervalo = setInterval(() => {
     mensaje.textContent += texto[i];
     i++;
-    if (i >= texto.length) clearInterval(intervalo);
+    if (i >= texto.length) {
+  clearInterval(intervalo);
+  setTimeout(() => {
+    document.getElementById("final").classList.remove("oculto");
+    document.getElementById("final").style.opacity = 1;
+  }, 1500);
+}
+
   }, 50);
 }
 
