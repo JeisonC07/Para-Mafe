@@ -9,8 +9,9 @@ const modalImg = document.getElementById("modal-img");
 const texto =
   "Este regalo es una promesa de amor eterno. " +
   "Eres y siempre serás tú en mi vida; no existe duda alguna en mi corazón. " +
-  "Te amo más de lo que las palabras pueden explicar, y quiero que lo lleves contigo para recordarme cuando estemos lejos.
-Así, aunque la distancia nos separe, mi presencia y mi amor siempre estarán a tu lado.";
+  "Te amo más de lo que las palabras pueden explicar. " +
+  "Y quiero que lo lleves contigo para recordarme cuando estemos lejos. " +
+  "Así, aunque la distancia nos separe, mi presencia y mi amor siempre estarán a tu lado.";
 
 
 function iniciar() {
